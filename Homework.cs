@@ -1,4 +1,5 @@
-﻿/*
+﻿// Домашняя работа №1 
+/*
 Задача 1: Напишите программу, которая на вход принимает два числа и выдаёт, какое число большее, а какое меньшее.
 a = 5; b = 7 -> max = 7
 a = 2 b = 10 -> max = 10
@@ -42,11 +43,11 @@ if (num1 % 2 == 0)
 Console.WriteLine("Number is even");
 else
 Console.WriteLine("Number is NOT even");
-*/
 //Задача 4: Напишите программу, которая на вход принимает число (N), а на выходе показывает все чётные числа от 1 до N.
 //5 -> 2, 4
 //8 -> 2, 4, 6, 8
 //Решение
+/*
 Console.Write("Input integer number: ");
 int num = Convert.ToInt32(Console.ReadLine());
 int current = 1;
